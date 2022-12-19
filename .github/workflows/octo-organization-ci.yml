@@ -44,7 +44,7 @@ jobs:
           npm install ejs
           npm install body-parser
           npm install cookie-parser
-	  npm install mocha
+	  npm install --save-dev mocha
 	  npm test
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
