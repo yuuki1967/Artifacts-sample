@@ -45,7 +45,7 @@ jobs:
           npm install body-parser
           npm install cookie-parser
           npm install --save-dev mocha
-	  mkdir -p test/output
+          mkdir -p test/output
           npm test > test/output/result.txt
       - name: Archive code coverage results
         uses: actions/upload-artifact@v3
