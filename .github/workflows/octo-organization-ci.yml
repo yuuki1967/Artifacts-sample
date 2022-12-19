@@ -66,4 +66,4 @@ jobs:
           name: code-coverage-report
 
       - run: |
-          cat test/output/result.txt
+          cat result.txt
