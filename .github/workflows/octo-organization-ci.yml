@@ -45,6 +45,7 @@ jobs:
           npm install body-parser
           npm install cookie-parser
           npm install --save-dev mocha
+          npm audit fix --force
           mkdir -p test/output
           npm test > test/output/result.txt
       - name: Archive code coverage results
