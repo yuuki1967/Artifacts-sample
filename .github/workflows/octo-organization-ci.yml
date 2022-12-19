@@ -55,3 +55,13 @@ jobs:
         with:
           name: code-coverage-report
           path: test/output/result.txt
+  result:
+    runs-on: ubuntu-latest
+    
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: code-coverage-report
+
+      - run: |
+          cat test/output/result.txt
