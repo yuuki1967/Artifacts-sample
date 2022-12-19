@@ -51,8 +51,10 @@ jobs:
           npm audit fix --force
           npm install --save-dev mocha
           npm audit fix --force
+          npm test 
           mkdir -p test/output
-          npm test > test/output/result.txt
+          touch test/output/result.txt
+          echo "test done" > test/output/result.txt
       - name: Archive code coverage results
         uses: actions/upload-artifact@v3
         with:
