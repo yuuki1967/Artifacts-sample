@@ -1,4 +1,4 @@
-# CI_CD_ActionSample
+# artifact sample
 ## installation
 - npm i body-parser --save 
 - npm install mongoose --save
