@@ -39,11 +39,7 @@ jobs:
           # cache-dependency-path: # optional
       - name: npm install, build, and test
         run: |
-          npm install mongoose --save
           npm install http
-          npm install ejs
-          npm install body-parser
-          npm install cookie-parser
           npm install --save-dev mocha
           npm test 
       - run: |

@@ -1,10 +1,10 @@
 {
-  "name": "myexpressapp3",
+  "name": "nodejssample",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "test":  "mocha"
+    "test": "mocha"
   },
   "dependencies": {
     "body-parser": "^1.20.1",
@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/yuuki1967/myExpressApp3/issues"
   },
-  "homepage": "https://github.com/yuuki1967/myExpressApp3#readme"
+  "homepage": "https://github.com/yuuki1967/myExpressApp3#readme",
+  "directories": {
+    "test": "test"
+  }
 }
