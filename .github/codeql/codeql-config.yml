@@ -1,6 +1,0 @@
-name: "My CodeQL config"
-
-queries:
-    - uses: security-and-quality
-    - uses: ./custom-queries/code-scanning.qls
-    - uses: ./custom-queries/js/dataflow_sample.ql
