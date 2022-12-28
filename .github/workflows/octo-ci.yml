@@ -1,4 +1,4 @@
-name: octo-Organization CI
+name: octo CI
 
 on:
   push:
