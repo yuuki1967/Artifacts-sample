@@ -34,5 +34,6 @@
   "homepage": "https://github.com/yuuki1967/myExpressApp3#readme",
   "directories": {
     "test": "test"
-  }
+  },
+  "devDependencies": {}
 }
